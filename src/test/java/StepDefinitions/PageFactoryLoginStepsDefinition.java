@@ -55,8 +55,8 @@ public class PageFactoryLoginStepsDefinition {
 	@And("Close the browser")
 	public void close_the_browser() {
 		
-		driver.close();
-		//driver.quit();
+		//driver.close();
+		driver.quit();
 	}
 
 }

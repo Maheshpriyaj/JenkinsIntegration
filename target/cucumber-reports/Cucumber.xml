@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="8.002" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="Login page Automation of saucedemo App" name="Check login is successful with valid creds - Example #1.1" time="7.772">
+<system-out><![CDATA[
+Given User is on login page.................................................passed
+When User enters valid "standard_user" and "secret_sauce"...................passed
+And Clicks on Login Button..................................................passed
+Then User is navigated to Home Page.........................................passed
+And Close the browser.......................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

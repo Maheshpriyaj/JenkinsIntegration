@@ -144,13 +144,14 @@
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite thread-count=&quot;1&quot; name=&quot;Surefire suite&quot; verbose=&quot;0&quot;&gt;
-  &lt;test thread-count=&quot;1&quot; name=&quot;Surefire test&quot; verbose=&quot;0&quot;&gt;
+&lt;suite name=&quot;Surefire suite&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Surefire test&quot; verbose=&quot;0&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;BackgroundStepDefinitions.BackgroundStepDefinitions&quot;/&gt;
       &lt;class name=&quot;pageFactory.homePageFactory&quot;/&gt;
       &lt;class name=&quot;pageFactory.loginPageFactory&quot;/&gt;
       &lt;class name=&quot;pageObjects.loginPage&quot;/&gt;
+      &lt;class name=&quot;reports.GenerateCucumberReport&quot;/&gt;
       &lt;class name=&quot;StepDefinitions.PageFactoryLoginStepsDefinition&quot;/&gt;
       &lt;class name=&quot;TestRunner.CucumberTestRunner&quot;/&gt;
     &lt;/classes&gt;
@@ -166,7 +167,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Surefire test (6 classes)</span>
+                <span class="test-name">Surefire test (7 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -204,12 +205,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'runScenario')
 data.setCell(0, 2, 'TestRunner.CucumberTestRunner')
-data.setCell(0, 3, 6465);
+data.setCell(0, 3, 13015);
 window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 6 seconds</span>
+              <span class="suite-total-time">Total running time: 13 seconds</span>
               <div id="times-div-Surefire_suite">
               </div> <!-- times-div-Surefire_suite -->
             </div> <!-- times-div -->
@@ -237,16 +238,16 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">TestRunner.CucumberTestRunner</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <span class="method-name">setUpClass(org.testng.TestRunner@35eb4a3b)</span>
+                <span class="method-name">setUpClass(org.testng.TestRunner@4d21c56e)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">runScenario("Check login is successful with valid creds", "Login page Automation of saucedemo App")</span>
-                <span class="method-start">461 ms</span>
+                <span class="method-start">758 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDownClass</span>
-                <span class="method-start">6938 ms</span>
+                <span class="method-start">13790 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
